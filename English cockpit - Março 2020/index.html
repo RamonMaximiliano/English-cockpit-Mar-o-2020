@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Production</title>
+    <link rel="stylesheet" href="format.css">
+</head>
+<body>
+    <header class="mainheader">
+        <ul class="mainlist">
+            <li><a href="index.html">Production</a></li>
+            <li><a href="index2.html">Project</a></li>
+        </ul>
+    </header>
+    <div class="mainsection">
+        <form class="mainform">
+            </br>
+            <label for="gender"><strong>Caller</strong></label></br>
+            <select class="gender" id="gender">
+                <option>Mr.</option>
+                <option>Ms.</option>
+            </select>
+            <input type="text" id="gendername">
+            </br>
+            </br>
+            <label for="action"><strong>Action required</strong></label></br>
+            <select class="action" id="action">
+                <option>speed up</option>
+                <option>priority raise</option>
+                <option>call back</option>
+            </select>
+            </br>
+            </br>
+            <label for="Channel"><strong>Channel</strong></label></br>
+            <select class="Channel" id="Channel">
+                <option>phone</option>
+                <option>chat</option>
+                <option>E-mail</option>
+            </select>
+            </br>
+            </br>
+            <label for="status"><strong>System status</strong></label></br>
+            <select class="status" id="status">
+                <option>up</option>
+                <option>down</option>
+            </select>
+            </br>
+            </br>
+            <label for="issue"><strong>Issue description</strong></label></br>
+            <textarea name="issue" placeholder="Description of the issue" id="issue" class="issue"></textarea>
+            </br>
+            </br>
+            <label for="product"><strong>SAP product affected</strong></label></br>
+            <input type="text" name="product" id="product">
+            </br>
+            </br>
+            <label for="process"><strong>Business process affected</strong></label></br>
+            <input type="text" name="process" id="process">
+            </br>
+            </br>
+            <label for="department"><strong>Company's department affected</strong></label></br>
+            <input type="text" name="department" id="department">
+            </br>
+            </br>
+            <label for="status2"><strong>Is there a workaround available?</strong></label>
+            <select class="status2" id="status2">
+                <option>Yes</option>
+                <option>No</option>
+            </select>
+            </br>
+            </br>
+            <label for="users"><strong>How many users are being affected?</strong></label></br>
+            <input type="text" name="users" id="users">
+            </br>
+            </br>
+            <label for="dia"><strong>Deadline for resolution</strong></label></br>
+            <input type="number" name="dia" id="dia">
+            <select id="mes">
+                <option>January</option>
+                <option>February</option>
+                <option>March</option>
+                <option>April</option>
+                <option>May</option>
+                <option>June</option>
+                <option>July</option>
+                <option>August</option>
+                <option>September</option>
+                <option>October</option>
+                <option>November</option>
+                <option>December</option>
+            </select>
+            <select id="ano">
+                <option>2020</option>
+                <option>2021</option>
+            </select>
+            </br>
+            </br>
+            <label for="loss"><strong>Is there any financial loss?</strong></label></br>
+            <select class="loss" id="loss">
+                <option>No</option>
+                <option>Yes, not quantified</option>
+            </select>
+           </br>
+            </br>
+            <label for="connection"><strong>Is the remote connection opened?</strong></label></br>
+            <select class="loconnectionss" id="connection">
+                <option>Connection is opened.</option>
+                <option>Connection is closed.</option>
+            </select>
+            </br>
+            </br>
+            <label for="contactgender"><strong>Contact person</strong></label></br>
+            <select id="contactgender">
+                <option>Mr.</option>
+                <option>Ms.</option>
+            </select>
+            <label for="contactname">Name</label>
+            <input type="text" id="contactname">
+            <label for="contactnumber">Number</label>
+            <input type="text" id="contactnumber">
+            </br>
+            </br>
+            <label for="additionalinfo"><strong>Additional information</strong></label>
+            </br>
+            <textarea name="message" placeholder="Additional comments" id="additionalinfo"
+                class="additionalinfo"></textarea>
+            </br>
+            </br>
+        </form>
+        <aside class="businessimpact">
+            <label for="finaltext"><strong>Final business impact</strong></label></br>
+            <textarea name="message" placeholder="Business impact" id="finaltext" class="finaltext"></textarea>
+            </br>
+            <input type="button" value="Generate" onclick="generate()" />
+        </aside>
+    </div>
+    <script src="functions.js"></script>
+</body>
+
+</html>

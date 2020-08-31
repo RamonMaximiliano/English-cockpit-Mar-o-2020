@@ -1,0 +1,69 @@
+.mainsection {
+    margin-left:20%;
+    margin-right:20%;
+    text-align:center;
+}
+
+.mainheader{
+    margin-left:15%;
+    margin-right:15%;
+    text-align: center;
+    margin-top: 15px;
+    padding:10px;
+    background-color: rgb(148, 163, 223);
+}
+
+.mainform{
+text-align: left;
+margin:5px;
+float:left;
+}
+
+.finaltext {
+    width: 300px;
+    height: 550px;
+}
+
+.finaltext2 {
+    width: 300px;
+    height: 550px;
+}
+
+.businessimpact {
+    float:right;
+    margin:10px;
+}
+
+.additionalinfo {
+    width: 400px;
+    height: 200px;
+}
+
+.mainlist li{
+  list-style: none;
+  text-decoration:none;
+  display:inline-block;
+}
+
+.mainlist a{
+    border-radius: 5px;
+    text-decoration:none;
+    background-color: rgb(238, 240, 245);
+    padding:10px;
+    margin:5px;
+    }
+
+.issue {
+    width:300px;
+    height:150px;
+}
+
+@media (max-width: 1000px){
+    .mainform {
+        float:none;
+        width:90%;
+    }
+    .businessimpact {
+        float:left;
+        width:90%;}
+    }

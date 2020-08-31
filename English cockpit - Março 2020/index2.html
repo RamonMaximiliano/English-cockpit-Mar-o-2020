@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="format.css">
+</head>
+
+<body>
+    <header class="mainheader">
+        <ul class="mainlist">
+            <li><a href="index.html">Production</a></li>
+            <li><a href="index2.html">Project</a></li>
+        </ul>
+    </header>
+
+    <div class="mainsection">
+        <form class="mainform">
+            </br>
+
+            <label for="gender2"><strong>Caller</strong></label></br>
+            <select id="gender2">
+                <option>Mr.</option>
+                <option>Ms.</option>
+            </select>
+            <input type="text" id="gendername2">
+            </br>
+            </br>
+            <label for="action2"><strong>Action required</strong></label></br>
+            <select id="action2" id="action2">
+                <option>speed up</option>
+                <option>priority raise</option>
+                <option>call back</option>
+            </select>
+            </br>
+            </br>
+            <label for="Channel2"><strong>Channel</strong></label></br>
+            <select id="Channel2" id="Channel2">
+                <option>phone</option>
+                <option>chat</option>
+                <option>E-mail</option>
+            </select>
+            </br>
+            </br>
+            <label for="type2"><strong>Project type</strong></label></br>
+            <select class="type2" id="type2">
+                <option>Implementation</option>
+                <option>Upgrade</option>
+                <option>Migration</option>
+            </select>
+            </br>
+            </br>
+            <label for="dia2"><strong>Go live date in production</strong></label></br>
+            <input type="text" name="dia2" id="dia2">
+            <select id="mes2">
+                <option>January</option>
+                <option>February</option>
+                <option>March</option>
+                <option>April</option>
+                <option>May</option>
+                <option>June</option>
+                <option>July</option>
+                <option>August</option>
+                <option>September</option>
+                <option>October</option>
+                <option>November</option>
+                <option>December</option>
+            </select>
+            <select id="ano2">
+                <option>2020</option>
+                <option>2021</option>
+            </select>
+            </br>
+            </br>
+
+            <label for="phase2"><strong>Project phase</strong></label></br>
+            <select id="phase2">
+                <option>Preparation</option>
+                <option>Sandbox</option>
+                <option>Configuration</option>
+                <option>Test (User acceptance UAT)</option>
+                <option>Test (Integration)</option>
+                <option>Cut over</option>
+                <option>Go live</option>
+            </select>
+            </br>
+            </br>
+            <label for="showstopper2"><strong>Is the issue a show stopper?</strong></label></br>
+            <select id="showstopper2">
+                <option>Yes</option>
+                <option>No</option>
+            </select>
+            </br>
+            </br>
+            <label for="standstill2"><strong>Is the entire project at standstill?</strong></label></br>
+            <select id="standstill2">
+                <option>Yes</option>
+                <option>No</option>
+            </select>
+            </br>
+            </br>
+            <label for="members2"><strong>How many internal project team members are being affected?</strong></label></br>
+            <input type="text" name="members2" id="members2">
+            </br>
+            </br>
+            <label for="members3"><strong>How many external consultants are being affected?</strong></label></br>
+            <input type="text" name="members3" id="members3">
+            </br>
+            </br>
+            <label for="loss3"><strong>Is there any financial loss?</strong></label></br>
+            <select class="loss3" id="loss3">
+                <option>No</option>
+                <option>Yes, not quantified</option>
+            </select>
+            </br>
+            </br>
+            <label for="connection2"><strong>Is the remote connection opened?</strong></label></br>
+            <select class="connection2" id="connection2">
+                <option>Connection is opened.</option>
+                <option>Connection is closed.</option>
+            </select>
+            </br>
+            </br>
+            <label for="contactgender2"><strong>Contact person</strong></label></br>
+            <select id="contactgender2">
+                <option>Mr.</option>
+                <option>Ms.</option>
+            </select>
+            <label for="contactname2">Name</label>
+            <input type="text" id="contactname2">
+            <label for="contactnumber2">Number</label>
+            <input type="text" id="contactnumber2">
+            </br>
+            </br>
+            <label for="additionalinfo"><strong>Additional information</strong></label>
+            </br>
+            <textarea name="message" placeholder="Additional comments" id="additionalinfo"
+                class="additionalinfo"></textarea>
+            </br>
+            </br>
+        </form>
+        <aside class="businessimpact">
+            <label for="finaltext2"><strong>Final business impact</strong></label></br>
+            <textarea name="message" placeholder="Business impact" id="finaltext2" class="finaltext2"></textarea>
+            </br>
+            <input type="button" value="Generate" onclick="generate2()"/>
+        </aside>
+    </div>
+    <script src="functions.js"></script>
+</body>
+</html>
